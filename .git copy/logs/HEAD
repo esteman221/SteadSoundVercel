@@ -1,0 +1,23 @@
+0000000000000000000000000000000000000000 7c144be6d6b52fcae1fadd2d76dc73e27188d23c Steadman Murillo <steadmanmurillo@gmail.com> 1794678644 -0600	clone: from https://github.com/jocafood/SteadSound.git
+7c144be6d6b52fcae1fadd2d76dc73e27188d23c 7c144be6d6b52fcae1fadd2d76dc73e27188d23c Steadman Murillo <steadmanmurillo@gmail.com> 1794678881 -0600	checkout: moving from main to backend
+7c144be6d6b52fcae1fadd2d76dc73e27188d23c fc473ca946251b459d4985cf06361b7f8ffa0851 Steadman Murillo <steadmanmurillo@gmail.com> 1794679340 -0600	commit: v0.0 Creacion de la rama backend y publicacion de documentos
+fc473ca946251b459d4985cf06361b7f8ffa0851 6f4a5b6b3de4290cb102acba2603b18b26db0a0b Steadman Murillo <steadmanmurillo@gmail.com> 1794679408 -0600	commit: v0.1 Esquema de baja fidelidad
+6f4a5b6b3de4290cb102acba2603b18b26db0a0b 832d7f3142523af1d8a4e5e3d1b77b1c61530c6c Steadman Murillo <steadmanmurillo@gmail.com> 1794680253 -0600	commit: v0.2 COntrato de INtegracion UI-BACKEND
+832d7f3142523af1d8a4e5e3d1b77b1c61530c6c 723aceb0163a2ecc0eeaf63de5083274eeffbaef Steadman Murillo <steadmanmurillo@gmail.com> 1794686734 -0600	commit: v0.3 Version de API preliminar.
+723aceb0163a2ecc0eeaf63de5083274eeffbaef b5c0caaa3a7c76079b17c93a9b3280042e9ca11b Steadman Murillo <steadmanmurillo@gmail.com> 1794687400 -0600	commit: v0.4 Preparacion de entorno para catalogo
+b5c0caaa3a7c76079b17c93a9b3280042e9ca11b 2e040123a40c4c4698573e0fec8e27c235f74cab Steadman Murillo <steadmanmurillo@gmail.com> 1794690665 -0600	commit: v0.5 Escogencia de Catalogo
+2e040123a40c4c4698573e0fec8e27c235f74cab 4ff1fc16f601dbd3acb49da410cbb4eb02345aa1 Steadman Murillo <steadmanmurillo@gmail.com> 1794690884 -0600	commit: v0.6 Verificacion mediante Scripts
+4ff1fc16f601dbd3acb49da410cbb4eb02345aa1 7c144be6d6b52fcae1fadd2d76dc73e27188d23c Steadman Murillo <steadmanmurillo@gmail.com> 1794714814 -0600	checkout: moving from backend to main
+7c144be6d6b52fcae1fadd2d76dc73e27188d23c 0e693791be50733d6b21ecd16ec9c1334b589651 Steadman Murillo <steadmanmurillo@gmail.com> 1794714815 -0600	pull origin main: Fast-forward
+0e693791be50733d6b21ecd16ec9c1334b589651 7f83357026c23ffbbc7bb1a244e89256d5fac6fd Steadman Murillo <steadmanmurillo@gmail.com> 1794714957 -0600	commit (merge): Merge branch 'backend'
+7f83357026c23ffbbc7bb1a244e89256d5fac6fd 6f9f4345313896f41d2d57c80bce31aaf1d816c5 Steadman Murillo <steadmanmurillo@gmail.com> 1794716082 -0600	commit: v0.7 Merge entre backend y sonido.
+6f9f4345313896f41d2d57c80bce31aaf1d816c5 0f0cd0bcbf208755e1b1e9da25387f0e7afc19cb Steadman Murillo <steadmanmurillo@gmail.com> 1794716964 -0600	commit: v0.8 Rework de sonidos
+0f0cd0bcbf208755e1b1e9da25387f0e7afc19cb 4889a4c88a11ebb69b7b7d1774ec52ac115f3bd9 Steadman Murillo <steadmanmurillo@gmail.com> 1794718258 -0600	commit: v0.9 rework de sonidos
+4889a4c88a11ebb69b7b7d1774ec52ac115f3bd9 16bd1cbf0443ec0292f91ba8f0838fafd1394141 Steadman Murillo <steadmanmurillo@gmail.com> 1794719626 -0600	commit: v0.10 Rework SOnido v3
+16bd1cbf0443ec0292f91ba8f0838fafd1394141 73000d145a4c1e857a31deccaa1b27b1acbcc64e Steadman Murillo <steadmanmurillo@gmail.com> 1794751836 -0600	commit: V0.11 Documentacion y Contrato
+73000d145a4c1e857a31deccaa1b27b1acbcc64e b0c420f3281dae76b5a536157cf9f332fa5b0de9 Steadman Murillo <steadmanmurillo@gmail.com> 1794759094 -0600	pull --tags origin main: Fast-forward
+b0c420f3281dae76b5a536157cf9f332fa5b0de9 995184e00469964e4d0c8f37e68bc27eb7d5005a Steadman Murillo <steadmanmurillo@gmail.com> 1794759572 -0600	pull --tags origin main: Fast-forward
+995184e00469964e4d0c8f37e68bc27eb7d5005a 47df4543d0a6b2f2894a86280e4729dffb947838 Steadman Murillo <steadmanmurillo@gmail.com> 1794760918 -0600	commit: v0.14 Feature scan imagen
+47df4543d0a6b2f2894a86280e4729dffb947838 1f3badc3d165089d6b9acbcddf8ffc8c04e7b9a5 Steadman Murillo <steadmanmurillo@gmail.com> 1794763108 -0600	commit: v0.15 Preparacion para Vercel
+1f3badc3d165089d6b9acbcddf8ffc8c04e7b9a5 2572b76025d534337543f57f0ed3a6255762df1a Steadman Murillo <steadmanmurillo@gmail.com> 1794764504 -0600	commit: v0.16 Version FInal
+2572b76025d534337543f57f0ed3a6255762df1a 7ed8a5d1275a0eeeca7bd50c1f836bbbbdf3d5f2 Steadman Murillo <steadmanmurillo@gmail.com> 1794764558 -0600	commit: v0.17 vercel docs
