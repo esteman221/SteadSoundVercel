@@ -22,7 +22,7 @@ El catálogo JSON e imágenes se empaquetan como archivos de solo lectura. No ex
 | Archivo | Función |
 | --- | --- |
 | `app.py` en la raíz | Entrada conjunta: reutiliza `backend.app.create_app` y monta `dist/` después de las rutas API. |
-| `requirements.txt` en la raíz | Reutiliza dependencias de `backend/requirements.txt`. |
+| `requirements.txt` en la raíz | Lista directamente las mismas dependencias de producción que `backend/requirements.txt`, sin inclusiones `-r`. |
 | `.python-version` | Selecciona Python 3.14. |
 | `vercel.json` en la raíz | Framework FastAPI, compilación Vite, empaquetado de datos y exclusiones. |
 | `.vercelignore` | Evita subir entornos locales, node_modules, archivos de trabajo y pruebas. |
@@ -188,3 +188,7 @@ Referencias oficiales: [FastAPI y archivos estáticos en Vercel](https://vercel.
 | No suenan instrumentos después de cambiarlos | Activar Enable sound de nuevo y enfocar la imagen antes de usar flechas. |
 
 Documentación oficial adicional: [conexión de repositorios Git](https://vercel.com/docs/git). Las pantallas del servicio pueden cambiar; los valores técnicos que corresponden a esta configuración están en los archivos raíz del repositorio.
+
+### Error PYTHON_REQUIREMENTS_PARSE_ERROR
+
+La inclusión `-r backend/requirements.txt` del archivo raíz fue rechazada por el analizador del despliegue. El archivo raíz ahora lista directamente las versiones de FastAPI, Uvicorn y Pillow. Mantener esas versiones sincronizadas con `backend/requirements.txt`. Después de actualizarlo, ejecutar `npx vercel` desde la raíz para un despliegue nuevo; si se despliega mediante GitHub, subir primero el cambio y desplegar el commit actualizado.
